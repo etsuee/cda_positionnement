@@ -4,35 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <header>
       <nav>
-        <!-- Flexbox à faire en ccs -->
         <span>EE</span>
-        <li>Accueil</li>
-        <li>Projets</li>
-        <li><a href="#contact">Contact</a></li>
+        <div>
+          <a href>Accueil</a>
+          <a href>Projets</a>
+          <a href="#contact">Contact</a>
+        </div>
       </nav>
     </header>
 
     <main>
-      <h2>A proposo de moi</h2>
-      <p>
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. In maiores
-        consectetur vitae. Tempora nostrum adipisci voluptatem aliquam, vitae,
-        delectus aperiam ducimus illo quia sapiente corrupti ad incidunt neque
-        corporis excepturi.
-      </p>
+      <section id="pres">
+        <div id="a propos">
+          <h2>A proposo de moi</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. In maiores
+            consectetur vitae. Tempora nostrum adipisci voluptatem aliquam,
+            vitae, delectus aperiam ducimus illo quia sapiente corrupti ad
+            incidunt neque corporis excepturi.
+          </p>
+        </div>
 
-      <h2>Mes compétences</h2>
-      <ul>
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>C#</li>
-        <li>Unity</li>
-      </ul>
+        <div id="competences">
+          <h2>Mes compétences</h2>
+          <ul class="wrapper">
+            <li class="card">HTML</li>
+            <li class="card">CSS</li>
+            <li class="card">Javascript</li>
+            <li class="card">C#</li>
+            <li class="card">Unity</li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer>
